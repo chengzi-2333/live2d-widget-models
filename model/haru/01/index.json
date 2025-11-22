@@ -32,17 +32,33 @@
 	{
 		"idle":
 		[
-			{"file":"motions/idle_00.mtn" ,"fade_in":2000, "fade_out":2000},
-            {"file":"motions/idle_01.mtn" ,"fade_in":2000, "fade_out":2000},
-			{"file":"motions/idle_02.mtn" ,"fade_in":2000, "fade_out":2000}
+			{ "file":"motions/idle_00.mtn" ,"fade_in":2000, "fade_out":2000 },
+            { "file":"motions/idle_01.mtn" ,"fade_in":2000, "fade_out":2000 },
+			{ "file":"motions/idle_02.mtn" ,"fade_in":2000, "fade_out":2000 }
 		],
 		"tap_body":
 		[
-			{ "file":"motions/tapBody_00.mtn" },
-			{ "file":"motions/tapBody_01.mtn" },
-			{ "file":"motions/tapBody_02.mtn" },
+			{ "file":"motions/tapBody_00.mtn", "sound": "sounds/tapBody_00.mp3" },
+			{ "file":"motions/tapBody_01.mtn", "sound": "sounds/tapBody_01.mp3" },
+			{ "file":"motions/tapBody_02.mtn", "sound": "sounds/tapBody_02.mp3" },
 			{ "file":"motions/tapBody_03.mtn" },
 			{ "file":"motions/tapBody_04.mtn" }
+		],
+		"pinch_in":
+		[
+			{ "file":"motions/pinchIn_00.mtn", "sound":"sounds/pinchIn_00.mp3" }
+		],
+		"pinch_out":
+		[
+			{ "file":"motions/pinchOut_00.mtn", "sound":"sounds/pinchOut_00.mp3" }
+		],
+		"shake":
+		[
+			{ "file":"motions/shake_00.mtn", "sound":"sounds/shake_00.mp3","fade_in":500 }
+		],
+		"flick_head":
+		[
+			{ "file":"motions/flickHead_00.mtn", "sound":"sounds/flickHead_00.mp3" }
 		]
 	}
 }

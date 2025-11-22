@@ -42,6 +42,22 @@
 			{ "file":"motions/tapBody_07.mtn" },
 			{ "file":"motions/tapBody_08.mtn" },
 			{ "file":"motions/tapBody_09.mtn" }
+		],
+		"pinch_in":
+		[
+			{ "file":"motions/pinchIn_00.mtn", "sound":"sounds/pinchIn_00.mp3" }
+		],
+		"pinch_out":
+		[
+			{ "file":"motions/pinchOut_00.mtn", "sound":"sounds/pinchOut_00.mp3" }
+		],
+		"shake":
+		[
+			{ "file":"motions/shake_00.mtn", "sound":"sounds/shake_00.mp3","fade_in":500 }
+		],
+		"flick_head":
+		[
+			{ "file":"motions/flickHead_00.mtn", "sound":"sounds/flickHead_00.mp3" }
 		]
 	}
 }
